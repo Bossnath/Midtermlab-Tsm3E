@@ -1,7 +1,16 @@
+//Method 1: Delos Reyes, N
 class bank
 {
-  
+double getRateOfInterest()
+{return 0;}  
+}  
+
+//Method 2: Delos Reyes, N
+class SECURITYBANK extends Bank
+{  
+double getRateOfInterest(){return 0.99;}  
 }
+
 class Test2
 {  
 public static void main(String args[])
